@@ -33,7 +33,6 @@ The ensemble model merges Ridge Regression for handling linear trends with XGBoo
 
 ### Prediction Phase
 Ridge Regression provides the initial predictions, which are adjusted using XGBoost on the residuals, summing these up for the final estimates.
-On Data Leakage
 
 Best,
 Rafael Zimmermann
