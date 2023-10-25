@@ -79,7 +79,7 @@ In the prediction stage, we initiate with predictions from Ridge Regression and 
 
 The main approach used to ensure a top-10 placement was to initially accept the data leakage, and then validate with a code that had no data leakage at all. This was done because it was clear that the top-ranked participants had scores far lower than what would be possible without data leakage. Therefore, I chose this approach to genuinely track my progress and understand my standing in the competition.
 
-My final submission was completely free of data leakage. This notebook can execute the three main models created for the competition:
+My final submission was completely free of data leakage. The notebook can execute the three main models created for the competition:
 
 1. Data Leakage + Subsampling
 >* LB public = 0.050252038
