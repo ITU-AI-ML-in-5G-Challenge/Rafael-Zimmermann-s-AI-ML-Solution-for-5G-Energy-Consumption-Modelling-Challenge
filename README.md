@@ -1,7 +1,16 @@
 # Rafael-Zimmermann-s-AI-ML-Solution-for-5G-Energy-Consumption-Modelling-Challenge
 Managed by Rafael Zimmermann, this repo contains the solution for the ITU AI/ML in 5G Energy Consumption Modelling Challenge. It employs meticulous data preprocessing, advanced feature engineering, and ensemble modeling for accurate energy forecasts across different base station scenarios
 
-# Introduction:
+## Requirements
+
+### Python Version
+- Python version required: 3.10.12
+
+### Libraries
+The required libraries are listed in the `requirements.txt` file and can be installed using pip:
+pip install -r requirements.txt
+
+## Introduction:
 In this competition, I confronted three main objectives that influenced both the design and the methodology. A holistic approach was adopted, incorporating meticulous pre-processing, advanced feature engineering, and a distinct modeling strategy to suit the outlined objectives.
 
 ## Objectives:
