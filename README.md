@@ -20,18 +20,18 @@ Data was segmented specifically for each objective, based on features like BS_ca
 
 ## Subsampling
 Adversarial Validation was used for subsampling, notably for Objectives B and C, to align the training data distribution more closely with the test data.
-Modeling Workflow
 
-## Common Steps for all models:
+## Modeling Workflow
+### Common Steps for all models:
 1. Data Cleaning
 1. Feature Engineering
 1. Ensemble Modeling: Ridge Regression + XGBoost
 1. Training and Validation: MultiLabelStratifiedKFold with 10 folds
 
-## Modeling Strategy
+### Modeling Strategy
 The ensemble model merges Ridge Regression for handling linear trends with XGBoost to address non-linear patterns.
 
-## Prediction Phase
+### Prediction Phase
 Ridge Regression provides the initial predictions, which are adjusted using XGBoost on the residuals, summing these up for the final estimates.
 On Data Leakage
 
